@@ -1,0 +1,38 @@
+/*
+Copyright (C) 2017 André Sünnemann <a.suennemann@edv-peuker.de>
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : 14.08.2016, 14:16:37
+    Author     : asuennemann
+    Version: 1.0.0
+*/
+
+// Breakpoints
+@sreen-xs-min: 0px;
+@screen-xs-max: 768px;
+@screen-sm-min: ( @screen-xs-max + 1 );
+@screen-sm-max: 991px;
+@screen-md-min: ( @screen-sm-max + 1 );
+@screen-md-max: 1199px;
+// Breakpoint für breiteren
+@screen-lg-min: ( @screen-md-max + 1 );
+
+.clearfix
+{
+    clear: both;
+    height: 0!important;
+    width: 0!important;
+    margin: 0!important;
+    border: 0!important;
+    padding: 0!important;
+}
